@@ -9,14 +9,55 @@ As I strive to enhance my Data Engineering abilities, the Sustainable Developmen
 ## How will I work on these goals ? 
 Each goal are more precisely defined by "Targets and Indicators" that we can find on the main website of the United Nations.
 For example, the two first targets and indicators for the 1st goal are the following one : 
-IMAGE TARGETS AND INDICATORS
+
+![example_target_indicator](https://user-images.githubusercontent.com/63043011/207667235-9c3e837b-c67e-4fba-b83b-7600dcd5fa98.jpg)
+
+I can then take for support these different indicators to try to evaluate their state with data vizualisation.
+
+## Main methodology
 
 For each of the goals, I'll apply the following methodology :
-1. Explain the goal and define clearly all his targets and indicators
-2. Find and extract different data source to respond to 
-3. Build Data Pipeline
-   1. Implement Data Entry management (Data Lake / Data Warehouse / ...)
+1. Explain the goal and define clearly all its targets and indicators,
+2. Find and extract different data sources to understand better the evolution of each indicators,
+3. Build Data Pipeline,
+   1. Implement data ingestion (Data Lake / Data Warehouse / ...)
    2. Build data processing (ETL / ELT / ...)
-   3. Implement data output management (Data Warehouse)
-4. Build Data Vizualisation tool 
+   3. Implement data serving (Data Warehouse)
+4. Build vizualisation 
+5. (Optional) Build Workflow scheduling system
+6. (Optional) Monitor data pipeline (logs, metadata, metrics, performance, ...)
+7. (Optional) Add data security and privacy
+
+## Technical Tools
+
+My main goal with this project is being able to work and be comfortable with multiple tools and strategies related to data engineering!
+
+Here are the following tools that I intend to use :
+* <ins>Programming language :</ins> Python, SQL, Scala
+* <ins>Relational Databases :</ins> PostgreSQL, MySQL
+* <ins>Non-Relational Databases :</ins> MongoDB, Apache Cassandra, Neo4j, Redis
+* <ins>Data Warehouse / Lake :</ins> SnowFlake, Apache Hive
+* <ins>Cluster Computing :</ins> Apache Hadoop, HDFS, MapReduce
+* <ins>Data Processing :</ins> Apache Spark, Apache Pig, Apache Flink, Apache Kafka
+* <ins>ETL :</ins> Talend, Pentaho
+* <ins>Workflow Scheduling :</ins> Apache Airflow, Luigi
+* <ins>Data Vizualisation :</ins> Tableau, Grafana, Power BI
+
+I'll also try to complete **Cloud Solutions** (with my budget limit) by using... 
+* <ins>AWS :</ins> Aurora, DynamoDB, S3, Redshfit, EMR, Glue, Quicksight
+* <ins>Microsoft Azure :</ins> CosmosDB, Synapse, BlobStorage, Data Lake
+* <ins>GCP :</ins> Bigtable, BigQuery, Cloud Storage, Dataproc, Data Fusion, Composer
+
+
+
+
+
+
+
+
+
+
+
+
+
 
